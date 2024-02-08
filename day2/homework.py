@@ -1,2 +1,5 @@
-print("მე გოაში დავუმეგობრდი მარტო ჩემი რაზმის ლიდერს რადგან ახალი შემოსული ვარ აქ.")
-print("მე ვფიქრობ რომ გოა არის ყველაზე მაგარი პროგრამირების სკოლა საქართველოში რადგან აქვთ ძალიან კარგი სწავლის ტექნიკები და სახალისოც არის")
+print("Gavicani da davumegobrdi:")
+# nika gelenidze
+# saba tandashvili
+print("ras fiqroft GOA-ze:")
+# me vfiqrob rom GOA aris yvelaze magari programirebis skola saqartvelosi radgan mat aqvt kargi swavlis teqnikebi, arian megobruli da saxalisoc aris
