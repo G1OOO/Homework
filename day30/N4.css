@@ -1,0 +1,12 @@
+body {
+    min-height: 640px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Courier New, monospace;
+    background-color: #fff ;
+    color: #000 ;
+    padding: 20px;
+}
+button {
+    font-size: 20px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./N5.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+</head>
+<body>
+    <div class="container">
+        <h1>User Registration</h1>
+        <form action="/submit_registration" method="post">
+            <label>First Name:</label>
+            <input type="text"required>
+
+            <label >Last Name:</label>
+            <input type="text" required>
+
+            <label>Email:</label>
+            <input type="email" required>
+
+            <label>Password:</label>
+            <input type="password" required>
+
+            <label>Gender:</label>
+            <div>
+                <label>Male</label>
+                <input type="radio" required>      
+                <label for="female">Female</label>
+
+                <input type="radio">
+
+            </div>
+
+            <label>Lenguage:</label>
+            <select required>
+                <option>Select a Lenguage</option>
+                <option>English</option>
+                <option>Georgian</option>
+                <option>Spanish</option>
+                <option>Russian</option>
+                <option>Dutch</option>
+                <option>Japanese</option>
+                <option>Chinese</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
