@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.SR {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 100px;
+}
+.SR h1 {
+    font-family: outfit;
+    margin-right: 200px;
+}
+.inside {
+    display: flex;
+    align-items: center;
+}
+.top {
+    border: 2px solid rgb(192, 206, 220);
+    display: flex;
+    align-items: center;
+}
+button {
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    border: 2px solid yellow;
+    margin-right: 20px;
+}
+#menu {
+    margin-left: 100px;
+}
+span {
+    margin-right: 100px;
+}
+ul li {
+    font-size: 25px;
+    list-style: none;
+}
+ul {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#Currencies {
+    height: 50px;
+    font-size: 19px;
+    border: none;
+    background-color: transparent;
+    appearance: none;
+    padding: 0 10px;
+    outline: none;
+    text-align-last: center;
+}
