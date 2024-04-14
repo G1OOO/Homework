@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>document</title>
+</head>
+<body>
+
+  <div>
+    <img style="width: 500px;" id="image" src="./GOA.png" alt="Image 1">
+    <button onclick="previousImage()">Previous</button>
+    <button onclick="nextImage()">Next</button>
+  </div>
+
+  <script>
+    let currentImageIndex = 1;
+    const totalImages = 2;
+
+    function nextImage() {
+      currentImageIndex = currentImageIndex % totalImages + 1;
+      document.getElementById("image").src = `images/image${currentImageIndex}.jpg`;
+    }
+
+    function previousImage() {
+      currentImageIndex = (currentImageIndex - 2 + totalImages) % totalImages + 1;
+      document.getElementById("image").src = `images/image${currentImageIndex}.jpg`;
+    }
+  </script>
+
+</body>
+</html>

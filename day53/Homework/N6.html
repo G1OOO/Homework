@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+
+<script>
+var calculator = {
+    addition: function(a, b) {
+        return a + b;
+    },
+    subtraction: function(a, b) {
+        return a - b;
+    },
+    multiplication: function(a, b) {
+        return a * b;
+    },
+    division: function(a, b) {
+        if (b === 0) {
+            return "Cannot divide by zero";
+        }
+        return a / b;
+    },
+    quality: function(a, b) {
+        return a === b;
+    }
+};
+
+console.log("Addition:", calculator.addition(5, 3));
+console.log("Subtraction:", calculator.subtraction(10, 4));
+console.log("Multiplication:", calculator.multiplication(7, 2));
+console.log("Division:", calculator.division(10, 2));
+console.log("Equality:", calculator.quality(5, 5));
+</script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+
+<script>
+var carInfo = {
+    brand: "Toyota",
+    model: "Corolla",
+    year: 2020,
+    color: "blue",
+    engine: "V6",
+    summary: function() {
+        return `This ${this.year} ${this.brand} ${this.model} is ${this.color} and has a ${this.engine} engine.`;
+    }
+};
+
+// Print car information
+console.log(carInfo.summary());
+</script>
+
+</body>
+</html>
