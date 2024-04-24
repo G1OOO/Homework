@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1">Hello</p>
+    <p id="p2">World</p>
+    <p id="p3">Html</p>
+
+    <button id="button1">Change text</button>
+
+
+    <script>
+        let p1 = document.getElementById("p1").textContent;
+        let p2 = document.getElementById("p2").textContent;
+        let p3 = document.getElementById("p3").textContent;
+
+        const btn = document.getElementById("button1")
+
+        btn.addEventListener("click", function(){
+            p1.textContent = p2.textContent;
+            p2.textContent = p3.textContent;
+            p3.textContent = p1.textContent;
+        })
+
+    </script>
+</body>
+</html>
