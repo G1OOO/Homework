@@ -1,30 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Information Site</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+  #infoDiv {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+  }
+</style>
 </head>
 <body>
-    <div id="information">
-        <div class="info" id="privilege">
-            <h2>Privilege</h2>
-            <p>Some privilege information</p>
-        </div>
-        <div class="info" id="color">
-            <h2>Color</h2>
-            <p>Some color information</p>
-        </div>
-        <div class="info" id="width">
-            <h2>Width</h2>
-            <p>Some width information</p>
-        </div>
-        <div class="info" id="height">
-            <h2>Height</h2>
-            <p>Some height information</p>
-        </div>
-    </div>
+  <div>
+    <label for="privilege">Privilege:</label>
+    <input type="text" id="privilege">
+  </div>
+  <div>
+    <label for="color">Color:</label>
+    <input type="text" id="color">
+  </div>
+  <div>
+    <label for="second">Second:</label>
+    <input type="text" id="second">
+  </div>
+  <div>
+    <label for="width">Width:</label>
+    <input type="text" id="width">
+  </div>
+  <div>
+    <label for="third">Third:</label>
+    <input type="text" id="third">
+  </div>
+  <div>
+    <label for="height">Height:</label>
+    <input type="text" id="height">
+  </div>
+  <div>
+    <label for="fourth">Fourth:</label>
+    <input type="text" id="fourth">
+  </div>
+  <div>
+    <label for="text">Text:</label>
+    <input type="text" id="text">
+  </div>
+  <button onclick="changeWidth()">Change Width</button>
 
-    <script src="./script.js"></script>
+  <div id="infoDiv">
+    <p></p>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
